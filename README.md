@@ -40,21 +40,33 @@ lab-soc-investigacao-brute-force-ssh/
 
 - Origem das tentativas: ::1 (localhost).
 
+![IP de origem das tentativas de login](./images/brute-force-ip.png)
+
 - Usuário alvo: attackerlab (criado exclusivamente para o lab).
 
 ### 🧭 3. Passos executados
 
 - Criação do usuário de laboratório attackerlab em uma VM Kali Linux.
 
+![Criação do usuário attackerlab e sua senha](./images/brute-force-useradd.png)
+
 - Execução de múltiplas tentativas de autenticação SSH com senha incorreta para attackerlab a partir de localhost.
 
+![Múltiplas tentativas de acesso via autentição SSH 1](./images/brute-force-passwd-1.png)
+
+![Múltiplas tentativas de acesso via autentição SSH 2](./images/brute-force-passwd-2.png)
+
 - Coleta de logs via journalctl relacionados ao serviço SSH.
+
+![Logs coletados via comando journalctl](./images/brute-force-journalctl.png)
 
 - Análise das entradas de log para identificar padrão de brute force, origem e impacto.
 
 ### 📎 4. Evidências
 
 - Entre 10:26:03 e 10:26:56 de 06/04/2026, foram registradas aproximadamente 6 tentativas de autenticação SSH com senha incorreta para o usuário ‘attackerlab’, originadas do endereço ::1 (localhost), conforme logs do serviço sshd-session. As entradas indicam múltiplas falhas de autenticação e encerramento da conexão após sucessivas tentativas sem sucesso.
+
+- O arquivo de log completo está em [journalctl.txt](journalctl.txt).
 
 ### 🧠 5. Análise
 
