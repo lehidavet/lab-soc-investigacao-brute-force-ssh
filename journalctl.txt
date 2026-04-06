@@ -1,0 +1,554 @@
+Mar 13 19:37:22 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 13 19:37:22 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 13 19:37:22 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 13 19:37:22 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 13 19:37:26 kali systemd[722]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 13 19:37:26 kali systemd[722]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 13 19:37:26 kali systemd[722]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 19:37:26 kali systemd[722]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 13 19:37:26 kali systemd[722]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 13 19:37:26 kali systemd[722]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 13 19:37:57 kali systemd[835]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 13 19:37:57 kali systemd[835]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 13 19:37:57 kali systemd[835]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 13 19:37:57 kali systemd[835]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 13 19:37:57 kali systemd[835]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 13 19:37:57 kali systemd[835]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 13 19:37:59 kali gpg-agent[1039]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 13 19:37:59 kali gpg-agent[1039]: listening on: std=6 extra=5 browser=4 ssh=3
+Mar 13 19:37:59 kali gpg-agent[1044]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 13 19:37:59 kali gpg-agent[1044]: listening on: std=6 extra=5 browser=4 ssh=3
+Mar 13 19:38:06 kali systemd[722]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 13 19:38:06 kali systemd[722]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 13 19:38:06 kali systemd[722]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 13 19:38:06 kali systemd[722]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 13 19:38:06 kali systemd[722]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 11:03:12 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 15 11:03:12 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 15 11:03:12 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 15 11:03:12 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 15 11:03:20 kali systemd[808]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 11:03:20 kali systemd[808]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 11:03:20 kali systemd[808]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 11:03:20 kali systemd[808]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 11:03:20 kali systemd[808]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 11:03:20 kali systemd[808]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 11:03:33 kali systemd[920]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 11:03:33 kali systemd[920]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 11:03:33 kali systemd[920]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 11:03:33 kali systemd[920]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 11:03:33 kali systemd[920]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 11:03:33 kali systemd[920]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 11:03:35 kali gpg-agent[1122]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 11:03:35 kali gpg-agent[1122]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 15 11:03:35 kali gpg-agent[1127]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 11:03:35 kali gpg-agent[1127]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 15 11:03:42 kali systemd[808]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 11:03:42 kali systemd[808]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 11:03:42 kali systemd[808]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 11:03:42 kali systemd[808]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 11:03:42 kali systemd[808]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 12:52:30 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 15 12:52:30 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 15 12:52:30 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 15 12:52:30 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 15 12:52:38 kali systemd[713]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 12:52:38 kali systemd[713]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 12:52:38 kali systemd[713]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 12:52:38 kali systemd[713]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 12:52:38 kali systemd[713]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 12:52:38 kali systemd[713]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:02:29 kali systemd[841]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 13:02:29 kali systemd[841]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 13:02:29 kali systemd[841]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 13:02:29 kali systemd[841]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 13:02:29 kali systemd[841]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 13:02:29 kali systemd[841]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:02:31 kali gpg-agent[1038]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 13:02:31 kali gpg-agent[1038]: listening on: std=5 extra=6 browser=3 ssh=4
+Mar 15 13:02:31 kali gpg-agent[1048]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 13:02:31 kali gpg-agent[1048]: listening on: std=5 extra=6 browser=3 ssh=4
+Mar 15 13:02:38 kali systemd[713]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:02:38 kali systemd[713]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 13:02:38 kali systemd[713]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 13:02:38 kali systemd[713]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 13:02:38 kali systemd[713]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 13:08:28 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 15 13:08:28 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 15 13:08:28 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 15 13:08:29 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 15 13:08:35 kali systemd[713]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 13:08:35 kali systemd[713]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 13:08:35 kali systemd[713]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 13:08:35 kali systemd[713]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 13:08:35 kali systemd[713]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 13:08:36 kali systemd[713]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:08:49 kali systemd[825]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 13:08:49 kali systemd[825]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 13:08:49 kali systemd[825]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 13:08:49 kali systemd[825]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 15 13:08:49 kali systemd[825]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 15 13:08:49 kali systemd[825]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:08:51 kali gpg-agent[1027]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 13:08:51 kali gpg-agent[1027]: listening on: std=4 extra=3 browser=5 ssh=6
+Mar 15 13:08:51 kali gpg-agent[1032]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 15 13:08:51 kali gpg-agent[1032]: listening on: std=4 extra=3 browser=5 ssh=6
+Mar 15 13:08:58 kali systemd[713]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 15 13:08:58 kali systemd[713]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 15 13:08:58 kali systemd[713]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 15 13:08:58 kali systemd[713]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 15 13:08:58 kali systemd[713]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 08:42:39 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 16 08:42:39 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 16 08:42:39 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 16 08:42:39 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 16 08:42:47 kali systemd[767]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 08:42:47 kali systemd[767]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 08:42:47 kali systemd[767]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 08:42:47 kali systemd[767]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 16 08:42:47 kali systemd[767]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 08:42:47 kali systemd[767]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 08:44:17 kali systemd[897]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 08:44:17 kali systemd[897]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 08:44:17 kali systemd[897]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 08:44:17 kali systemd[897]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 08:44:17 kali systemd[897]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 16 08:44:17 kali systemd[897]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 08:44:19 kali gpg-agent[1099]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 16 08:44:19 kali gpg-agent[1099]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 16 08:44:19 kali gpg-agent[1104]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 16 08:44:19 kali gpg-agent[1104]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 16 08:44:26 kali systemd[767]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 08:44:26 kali systemd[767]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 08:44:26 kali systemd[767]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 08:44:27 kali systemd[767]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 08:44:27 kali systemd[767]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 20:51:03 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 16 20:51:03 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 16 20:51:03 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 16 20:51:03 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 16 20:51:10 kali systemd[711]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 20:51:10 kali systemd[711]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 20:51:10 kali systemd[711]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 20:51:10 kali systemd[711]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 20:51:10 kali systemd[711]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 16 20:51:10 kali systemd[711]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 20:51:22 kali systemd[824]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 20:51:22 kali systemd[824]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 20:51:22 kali systemd[824]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 16 20:51:22 kali systemd[824]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 20:51:22 kali systemd[824]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 16 20:51:22 kali systemd[824]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 20:51:24 kali gpg-agent[1026]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 16 20:51:24 kali gpg-agent[1026]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 16 20:51:24 kali gpg-agent[1031]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 16 20:51:24 kali gpg-agent[1031]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 16 20:51:31 kali systemd[711]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 16 20:51:31 kali systemd[711]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 16 20:51:31 kali systemd[711]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 16 20:51:32 kali systemd[711]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 16 20:51:32 kali systemd[711]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 09:29:12 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 17 09:29:12 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 17 09:29:12 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 17 09:29:12 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 17 09:29:21 kali systemd[763]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 09:29:21 kali systemd[763]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 09:29:22 kali systemd[763]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 09:29:22 kali systemd[763]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 17 09:29:22 kali systemd[763]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 09:29:22 kali systemd[763]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 09:29:45 kali systemd[875]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 09:29:45 kali systemd[875]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 09:29:45 kali systemd[875]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 09:29:45 kali systemd[875]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 17 09:29:45 kali systemd[875]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 09:29:45 kali systemd[875]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 09:29:47 kali gpg-agent[1081]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 17 09:29:47 kali gpg-agent[1081]: listening on: std=3 extra=6 browser=5 ssh=4
+Mar 17 09:29:47 kali gpg-agent[1086]: using fd 4 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 17 09:29:47 kali gpg-agent[1086]: listening on: std=3 extra=6 browser=5 ssh=4
+Mar 17 09:29:54 kali systemd[763]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 09:29:54 kali systemd[763]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 09:29:54 kali systemd[763]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 09:29:54 kali systemd[763]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 09:29:54 kali systemd[763]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 15:34:29 kali systemd[1]: Stopped target ssh-access.target - SSH Access Available.
+Mar 17 15:34:29 kali ssh-agent[1077]: exiting on signal 15
+Mar 17 15:34:35 kali systemd[875]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 15:34:35 kali systemd[875]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 15:34:35 kali systemd[875]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 15:34:35 kali systemd[875]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 15:34:35 kali systemd[875]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 15:34:36 kali systemd[1]: sshd-unix-local.socket: Deactivated successfully.
+Mar 17 15:34:36 kali systemd[1]: Closed sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 17 15:34:36 kali systemd[1]: sshd-vsock.socket: Deactivated successfully.
+Mar 17 15:34:36 kali systemd[1]: Closed sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 17 15:35:19 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 17 15:35:19 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 17 15:35:19 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 17 15:35:19 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 17 15:35:28 kali systemd[713]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 15:35:28 kali systemd[713]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 15:35:28 kali systemd[713]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 15:35:28 kali systemd[713]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 15:35:28 kali systemd[713]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 17 15:35:29 kali systemd[713]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 15:36:23 kali systemd[828]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 15:36:23 kali systemd[828]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 15:36:23 kali systemd[828]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 15:36:23 kali systemd[828]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 15:36:23 kali systemd[828]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 17 15:36:23 kali systemd[828]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 15:36:25 kali gpg-agent[1030]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 17 15:36:25 kali gpg-agent[1030]: listening on: std=6 extra=4 browser=5 ssh=3
+Mar 17 15:36:25 kali gpg-agent[1035]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 17 15:36:25 kali gpg-agent[1035]: listening on: std=6 extra=4 browser=5 ssh=3
+Mar 17 15:36:32 kali systemd[713]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 15:36:32 kali systemd[713]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 15:36:32 kali systemd[713]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 15:36:32 kali systemd[713]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 15:36:33 kali systemd[713]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 17:04:11 kali ssh-agent[1026]: exiting on signal 15
+Mar 17 17:04:11 kali systemd[1]: Stopped target ssh-access.target - SSH Access Available.
+Mar 17 17:04:12 kali systemd[828]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 17 17:04:12 kali systemd[828]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 17 17:04:12 kali systemd[828]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 17 17:04:12 kali systemd[828]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 17 17:04:12 kali systemd[828]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 17 17:04:12 kali systemd[1]: sshd-unix-local.socket: Deactivated successfully.
+Mar 17 17:04:12 kali systemd[1]: Closed sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 17 17:04:12 kali systemd[1]: sshd-vsock.socket: Deactivated successfully.
+Mar 17 17:04:12 kali systemd[1]: Closed sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 20 10:55:10 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 20 10:55:17 kali systemd[759]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 20 10:55:17 kali systemd[759]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 20 10:55:17 kali systemd[759]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 20 10:55:17 kali systemd[759]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 10:55:17 kali systemd[759]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 20 10:55:17 kali systemd[759]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 20 10:56:25 kali systemd[875]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 20 10:56:25 kali systemd[875]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 20 10:56:25 kali systemd[875]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 10:56:25 kali systemd[875]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 20 10:56:25 kali systemd[875]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 20 10:56:25 kali systemd[875]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 20 10:56:27 kali gpg-agent[1077]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 20 10:56:27 kali gpg-agent[1077]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 20 10:56:27 kali gpg-agent[1082]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 20 10:56:27 kali gpg-agent[1082]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 20 10:56:34 kali systemd[759]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 20 10:56:34 kali systemd[759]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 20 10:56:34 kali systemd[759]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 20 10:56:35 kali systemd[759]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 20 10:56:35 kali systemd[759]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 20 17:00:37 kali ssh-agent[1065]: exiting on signal 15
+Mar 20 17:00:43 kali systemd[875]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 20 17:00:43 kali systemd[875]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 20 17:00:43 kali systemd[875]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 20 17:00:43 kali systemd[875]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 20 17:00:43 kali systemd[875]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 21 17:23:01 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 21 17:23:01 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 21 17:23:01 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 21 17:23:01 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 21 17:23:08 kali systemd[847]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 21 17:23:08 kali systemd[847]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 21 17:23:08 kali systemd[847]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 21 17:23:08 kali systemd[847]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 21 17:23:08 kali systemd[847]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 21 17:23:08 kali systemd[847]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 21 17:23:33 kali systemd[961]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 21 17:23:33 kali systemd[961]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 21 17:23:33 kali systemd[961]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 21 17:23:33 kali systemd[961]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 21 17:23:33 kali systemd[961]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 21 17:23:33 kali systemd[961]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 21 17:23:34 kali gpg-agent[1167]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 21 17:23:34 kali gpg-agent[1167]: listening on: std=4 extra=5 browser=6 ssh=3
+Mar 21 17:23:34 kali gpg-agent[1172]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 21 17:23:34 kali gpg-agent[1172]: listening on: std=4 extra=5 browser=6 ssh=3
+Mar 21 17:23:42 kali systemd[847]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 21 17:23:42 kali systemd[847]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 21 17:23:42 kali systemd[847]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 21 17:23:42 kali systemd[847]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 21 17:23:42 kali systemd[847]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 21 19:32:12 kali ssh-agent[1162]: exiting on signal 15
+Mar 21 19:32:12 kali systemd[1]: Stopped target ssh-access.target - SSH Access Available.
+Mar 21 19:32:13 kali systemd[961]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 21 19:32:13 kali systemd[961]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 21 19:32:13 kali systemd[961]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 21 19:32:13 kali systemd[961]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 21 19:32:13 kali systemd[961]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 21 19:32:13 kali systemd[1]: sshd-unix-local.socket: Deactivated successfully.
+Mar 21 19:32:13 kali systemd[1]: Closed sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 21 19:32:13 kali systemd[1]: sshd-vsock.socket: Deactivated successfully.
+Mar 21 19:32:13 kali systemd[1]: Closed sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 24 09:14:37 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 24 09:14:37 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 24 09:14:37 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 24 09:14:37 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 24 09:14:49 kali systemd[767]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 24 09:14:49 kali systemd[767]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 24 09:14:49 kali systemd[767]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 24 09:14:49 kali systemd[767]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 24 09:14:49 kali systemd[767]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 24 09:14:49 kali systemd[767]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 24 09:15:22 kali systemd[894]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 24 09:15:22 kali systemd[894]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 24 09:15:22 kali systemd[894]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 24 09:15:22 kali systemd[894]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 24 09:15:22 kali systemd[894]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 24 09:15:22 kali systemd[894]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 24 09:15:24 kali gpg-agent[1098]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 24 09:15:24 kali gpg-agent[1098]: listening on: std=4 extra=6 browser=3 ssh=5
+Mar 24 09:15:24 kali gpg-agent[1103]: using fd 5 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 24 09:15:24 kali gpg-agent[1103]: listening on: std=4 extra=6 browser=3 ssh=5
+Mar 24 09:15:31 kali systemd[767]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 24 09:15:31 kali systemd[767]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 24 09:15:31 kali systemd[767]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 24 09:15:31 kali systemd[767]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 24 09:15:31 kali systemd[767]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 25 08:53:03 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 25 08:53:03 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 25 08:53:03 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 25 08:53:03 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 25 08:53:11 kali systemd[763]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 25 08:53:12 kali systemd[763]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 25 08:53:12 kali systemd[763]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 25 08:53:12 kali systemd[763]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 25 08:53:12 kali systemd[763]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 25 08:53:12 kali systemd[763]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 25 09:03:57 kali systemd[906]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 25 09:03:57 kali systemd[906]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 25 09:03:57 kali systemd[906]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 25 09:03:57 kali systemd[906]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 25 09:03:57 kali systemd[906]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 25 09:03:57 kali systemd[906]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 25 09:03:58 kali gpg-agent[1097]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 25 09:03:58 kali gpg-agent[1097]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 25 09:03:59 kali gpg-agent[1108]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 25 09:03:59 kali gpg-agent[1108]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 25 09:04:06 kali systemd[763]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 25 09:04:06 kali systemd[763]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 25 09:04:06 kali systemd[763]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 25 09:04:06 kali systemd[763]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 25 09:04:06 kali systemd[763]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 26 09:15:34 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 26 09:15:34 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 26 09:15:34 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 26 09:15:34 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 26 09:15:42 kali systemd[763]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 26 09:15:42 kali systemd[763]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 26 09:15:42 kali systemd[763]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 26 09:15:42 kali systemd[763]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 26 09:15:42 kali systemd[763]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 26 09:15:42 kali systemd[763]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 26 09:21:40 kali systemd[884]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 26 09:21:40 kali systemd[884]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 26 09:21:40 kali systemd[884]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 26 09:21:40 kali systemd[884]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 26 09:21:40 kali systemd[884]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 26 09:21:40 kali systemd[884]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 26 09:21:42 kali gpg-agent[1085]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 26 09:21:42 kali gpg-agent[1085]: listening on: std=4 extra=5 browser=6 ssh=3
+Mar 26 09:21:42 kali gpg-agent[1091]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 26 09:21:42 kali gpg-agent[1091]: listening on: std=4 extra=5 browser=6 ssh=3
+Mar 26 09:21:49 kali systemd[763]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 26 09:21:49 kali systemd[763]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 26 09:21:49 kali systemd[763]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 26 09:21:49 kali systemd[763]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 26 09:21:49 kali systemd[763]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:32:10 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 27 10:32:10 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 27 10:32:10 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 27 10:32:11 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 27 10:32:18 kali systemd[765]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:32:18 kali systemd[765]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:32:18 kali systemd[765]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:32:18 kali systemd[765]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:32:18 kali systemd[765]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 10:32:18 kali systemd[765]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:32:36 kali systemd[877]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:32:36 kali systemd[877]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:32:36 kali systemd[877]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:32:36 kali systemd[877]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:32:36 kali systemd[877]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 10:32:36 kali systemd[877]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:32:38 kali gpg-agent[1071]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 10:32:38 kali gpg-agent[1071]: listening on: std=5 extra=4 browser=3 ssh=6
+Mar 27 10:32:38 kali gpg-agent[1084]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 10:32:38 kali gpg-agent[1084]: listening on: std=5 extra=4 browser=3 ssh=6
+Mar 27 10:32:45 kali systemd[765]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:32:45 kali systemd[765]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:32:45 kali systemd[765]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:32:45 kali systemd[765]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:32:45 kali systemd[765]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:45:30 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 27 10:45:30 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 27 10:45:30 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 27 10:45:30 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 27 10:45:36 kali systemd[711]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:45:36 kali systemd[711]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:45:36 kali systemd[711]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:45:36 kali systemd[711]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:45:36 kali systemd[711]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 10:45:36 kali systemd[711]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:45:51 kali systemd[823]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:45:51 kali systemd[823]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:45:51 kali systemd[823]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 10:45:51 kali systemd[823]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:45:51 kali systemd[823]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 10:45:51 kali systemd[823]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:45:53 kali gpg-agent[1025]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 10:45:53 kali gpg-agent[1025]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 27 10:45:53 kali gpg-agent[1030]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 10:45:53 kali gpg-agent[1030]: listening on: std=4 extra=5 browser=3 ssh=6
+Mar 27 10:46:00 kali systemd[711]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 10:46:00 kali systemd[711]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 10:46:00 kali systemd[711]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 10:46:00 kali systemd[711]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 10:46:01 kali systemd[711]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 19:40:54 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 27 19:40:54 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 27 19:40:54 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 27 19:40:54 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 27 19:41:00 kali systemd[748]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 19:41:00 kali systemd[748]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 19:41:00 kali systemd[748]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 19:41:00 kali systemd[748]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 19:41:00 kali systemd[748]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 19:41:01 kali systemd[748]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 19:41:13 kali systemd[868]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 19:41:13 kali systemd[868]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 19:41:13 kali systemd[868]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 27 19:41:13 kali systemd[868]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 19:41:13 kali systemd[868]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 27 19:41:13 kali systemd[868]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 19:41:14 kali gpg-agent[1061]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 19:41:14 kali gpg-agent[1061]: listening on: std=4 extra=6 browser=5 ssh=3
+Mar 27 19:41:14 kali gpg-agent[1075]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 27 19:41:14 kali gpg-agent[1075]: listening on: std=4 extra=6 browser=5 ssh=3
+Mar 27 19:41:22 kali systemd[748]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 27 19:41:22 kali systemd[748]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 27 19:41:22 kali systemd[748]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 27 19:41:22 kali systemd[748]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Mar 27 19:41:22 kali systemd[748]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 31 09:14:51 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 31 09:14:51 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 31 09:14:51 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 31 09:14:51 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 31 09:14:58 kali systemd[764]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 31 09:14:58 kali systemd[764]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 31 09:14:58 kali systemd[764]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 31 09:14:58 kali systemd[764]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 31 09:14:58 kali systemd[764]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 31 09:14:58 kali systemd[764]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 31 09:20:09 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Mar 31 09:20:09 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Mar 31 09:20:09 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Mar 31 09:20:09 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Mar 31 09:20:15 kali systemd[712]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 31 09:20:15 kali systemd[712]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 31 09:20:15 kali systemd[712]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 31 09:20:15 kali systemd[712]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 31 09:20:15 kali systemd[712]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 31 09:20:15 kali systemd[712]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 31 09:21:37 kali systemd[827]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 31 09:21:37 kali systemd[827]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Mar 31 09:21:37 kali systemd[827]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 31 09:21:37 kali systemd[827]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Mar 31 09:21:37 kali systemd[827]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Mar 31 09:21:37 kali systemd[827]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 31 09:21:38 kali gpg-agent[1018]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 31 09:21:38 kali gpg-agent[1018]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 31 09:21:39 kali gpg-agent[1034]: using fd 6 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Mar 31 09:21:39 kali gpg-agent[1034]: listening on: std=3 extra=4 browser=5 ssh=6
+Mar 31 09:21:47 kali systemd[712]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Mar 31 09:21:47 kali systemd[712]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Mar 31 09:21:47 kali systemd[712]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Mar 31 09:21:47 kali systemd[712]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Mar 31 09:21:47 kali systemd[712]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Apr 06 10:02:25 kali systemd[1]: Listening on sshd-unix-local.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_UNIX Local).
+Apr 06 10:02:25 kali systemd[1]: Listening on sshd-vsock.socket - OpenSSH Server Socket (systemd-ssh-generator, AF_VSOCK).
+Apr 06 10:02:25 kali systemd[1]: Reached target ssh-access.target - SSH Access Available.
+Apr 06 10:02:25 kali systemd[1]: regenerate-ssh-host-keys.service - Regenerate SSH host keys was skipped because of an unmet condition check (ConditionPathExistsGlob=!/etc/ssh/ssh_host_*_key).
+Apr 06 10:02:35 kali systemd[808]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Apr 06 10:02:35 kali systemd[808]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Apr 06 10:02:35 kali systemd[808]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Apr 06 10:02:35 kali systemd[808]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Apr 06 10:02:35 kali systemd[808]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Apr 06 10:02:36 kali systemd[808]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Apr 06 10:03:11 kali systemd[929]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Apr 06 10:03:11 kali systemd[929]: Starting ssh-agent.socket - OpenSSH Agent socket...
+Apr 06 10:03:11 kali systemd[929]: Listening on ssh-agent.socket - OpenSSH Agent socket.
+Apr 06 10:03:11 kali systemd[929]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Apr 06 10:03:11 kali systemd[929]: Starting gcr-ssh-agent.socket - GCR ssh-agent wrapper...
+Apr 06 10:03:11 kali systemd[929]: Listening on gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Apr 06 10:03:13 kali gpg-agent[1131]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Apr 06 10:03:13 kali gpg-agent[1131]: listening on: std=6 extra=5 browser=4 ssh=3
+Apr 06 10:03:13 kali gpg-agent[1136]: using fd 3 for ssh socket (/run/user/1000/gnupg/S.gpg-agent.ssh)
+Apr 06 10:03:13 kali gpg-agent[1136]: listening on: std=6 extra=5 browser=4 ssh=3
+Apr 06 10:03:20 kali systemd[808]: Closed gcr-ssh-agent.socket - GCR ssh-agent wrapper.
+Apr 06 10:03:20 kali systemd[808]: Stopping gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+Apr 06 10:03:20 kali systemd[808]: Stopping ssh-agent.socket - OpenSSH Agent socket...
+Apr 06 10:03:21 kali systemd[808]: Closed gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+Apr 06 10:03:21 kali systemd[808]: Closed ssh-agent.socket - OpenSSH Agent socket.
+Apr 06 10:10:10 kali sudo[4926]:     lehi : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+Apr 06 10:10:17 kali sudo[5017]:     lehi : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/journalctl -u ssh
+Apr 06 10:21:16 kali sudo[10557]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Apr 06 10:21:17 kali sudo[10588]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Apr 06 10:21:17 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Apr 06 10:21:17 kali sshd[10603]: Server listening on 0.0.0.0 port 22.
+Apr 06 10:21:17 kali sshd[10603]: Server listening on :: port 22.
+Apr 06 10:21:17 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Apr 06 10:21:17 kali sudo[10606]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+Apr 06 10:22:29 kali sudo[11476]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/apt install openssh-server
+Apr 06 10:23:21 kali sshd[10603]: Received signal 15; terminating.
+Apr 06 10:23:21 kali systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+Apr 06 10:23:21 kali systemd[1]: ssh.service: Deactivated successfully.
+Apr 06 10:23:21 kali systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+Apr 06 10:23:21 kali systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Apr 06 10:23:21 kali sshd[12419]: Server listening on 0.0.0.0 port 22.
+Apr 06 10:23:21 kali sshd[12419]: Server listening on :: port 22.
+Apr 06 10:23:21 kali systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Apr 06 10:24:13 kali sudo[13012]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Apr 06 10:24:37 kali sudo[13212]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Apr 06 10:24:46 kali sudo[13291]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Apr 06 10:24:58 kali sudo[13395]:     lehi : TTY=pts/1 ; PWD=/home/lehi ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+Apr 06 10:26:03 kali sshd-session[13914]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=attackerlab
+Apr 06 10:26:03 kali sshd-session[13914]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:03 kali sshd-session[13914]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:03 kali sshd-session[13914]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:03 kali sshd-session[13914]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:05 kali sshd-session[13914]: Failed password for attackerlab from ::1 port 49140 ssh2
+Apr 06 10:26:11 kali sshd-session[13914]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:11 kali sshd-session[13914]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:11 kali sshd-session[13914]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:11 kali sshd-session[13914]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:13 kali sshd-session[13914]: Failed password for attackerlab from ::1 port 49140 ssh2
+Apr 06 10:26:17 kali sshd-session[13914]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:17 kali sshd-session[13914]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:17 kali sshd-session[13914]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:17 kali sshd-session[13914]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:19 kali sshd-session[13914]: Failed password for attackerlab from ::1 port 49140 ssh2
+Apr 06 10:26:19 kali sshd-session[13914]: Connection closed by authenticating user attackerlab ::1 port 49140 [preauth]
+Apr 06 10:26:19 kali sshd-session[13914]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=attackerlab
+Apr 06 10:26:39 kali sshd-session[14422]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=attackerlab
+Apr 06 10:26:39 kali sshd-session[14422]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:39 kali sshd-session[14422]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:39 kali sshd-session[14422]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:39 kali sshd-session[14422]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:41 kali sshd-session[14422]: Failed password for attackerlab from ::1 port 48106 ssh2
+Apr 06 10:26:45 kali sshd-session[14422]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:45 kali sshd-session[14422]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:45 kali sshd-session[14422]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:45 kali sshd-session[14422]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:47 kali sshd-session[14422]: Failed password for attackerlab from ::1 port 48106 ssh2
+Apr 06 10:26:54 kali sshd-session[14422]: pam_winbind(sshd:auth): getting password (0x00000388)
+Apr 06 10:26:54 kali sshd-session[14422]: pam_winbind(sshd:auth): pam_get_item returned a password
+Apr 06 10:26:54 kali sshd-session[14422]: pam_winbind(sshd:auth): request wbcLogonUser failed: WBC_ERR_WINBIND_NOT_AVAILABLE, PAM error: PAM_AUTHINFO_UNAVAIL (9)!
+Apr 06 10:26:54 kali sshd-session[14422]: pam_winbind(sshd:auth): internal module error (retval = PAM_AUTHINFO_UNAVAIL(9), user = 'attackerlab')
+Apr 06 10:26:56 kali sshd-session[14422]: Failed password for attackerlab from ::1 port 48106 ssh2
+Apr 06 10:26:56 kali sshd-session[14422]: Connection closed by authenticating user attackerlab ::1 port 48106 [preauth]
+Apr 06 10:26:56 kali sshd-session[14422]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=::1  user=attackerlab
