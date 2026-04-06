@@ -66,7 +66,7 @@ lab-soc-investigacao-brute-force-ssh/
 
 - Entre 10:26:03 e 10:26:56 de 06/04/2026, foram registradas aproximadamente 6 tentativas de autenticação SSH com senha incorreta para o usuário ‘attackerlab’, originadas do endereço ::1 (localhost), conforme logs do serviço sshd-session. As entradas indicam múltiplas falhas de autenticação e encerramento da conexão após sucessivas tentativas sem sucesso.
 
-- O arquivo de log completo está em [journalctl.txt](journalctl.txt).
+- O arquivo de log completo está em [journalctl.txt](./docs/journalctl.txt).
 
 ### 🧠 5. Análise
 
