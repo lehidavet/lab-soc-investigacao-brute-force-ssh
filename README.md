@@ -13,7 +13,7 @@ A organização dos arquivos foi pensada para separar claramente documentação,
 ```text
 lab-soc-investigacao-brute-force-ssh/
 ├── README.md                 # Documentação principal do projeto
-├── journalctl.txt	      # Saída filtrada do journalctl com as tentativas de login SSH.
+├── journalctl.txt            # Saída filtrada do journalctl com as tentativas de login SSH.
 ├── images/                   # Evidências em formato de imagem
 │   ├── brute-force-ip.png
 │   ├── brute-force-useradd.png
